@@ -29,5 +29,9 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          color_background: "#ffffff"       # Fundo branco
+          color_pacman: "#fcd116"           # Amarelo (cor clássica do Pac-Man)
+          color_ghost: "#ff0000"            # Vermelho
+          color_dot: "#000000"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
